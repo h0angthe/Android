@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThongTinNV">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin nhân viên"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/tv_manv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã nhân viên"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_tennv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên Nhân Viên"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_ChucVu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chức vụ"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_Ngaysinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày sinh"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_Quequan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quê quán"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_phongban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phòng Ban"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bt_sua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:layout_marginLeft="50dp"/>
+        <Button
+            android:id="@+id/bt_xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:layout_marginLeft="25dp"/>
+        <Button
+            android:id="@+id/bt_thoatNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:layout_marginLeft="25dp"/>
+    </LinearLayout>
+</LinearLayout>

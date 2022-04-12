@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuaThongTinNV">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa Thông Tin Nhân Viên "
+        android:textSize="30sp"
+        android:gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã Nhân Viên :"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/ed_manv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NV123"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Nhân Viên :"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/ed_tennv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nguyễn Văn A"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chức Vụ :"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/ed_chucvu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhân Viên"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày Sinh :"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/ed_ngaysinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="2001/08/09"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quê Quán :"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/ed_quequan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hà Nội"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phòng ban :"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/ed_phongban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhân Sự"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_suaNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:layout_marginLeft="100dp"/>
+        <Button
+            android:id="@+id/button_thoatsuaNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUay lại"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+</LinearLayout>

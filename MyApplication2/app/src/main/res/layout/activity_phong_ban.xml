@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".PhongBan">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Phòng Ban"
+        android:textSize="32sp"
+        android:gravity="center_horizontal"
+        android:layout_marginVertical="20dp"/>
+
+    <Button
+        android:id="@+id/bt_themNV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#0099FF"
+        android:drawableLeft="@drawable/add"
+        android:text="Thêm nhân viên"
+        android:layout_marginBottom="20dp"/>
+
+    <ListView
+        android:id="@+id/lv_phongban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
